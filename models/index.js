@@ -10,4 +10,4 @@ const User = require('./User');
 //   foreignKey: 'gallery_id',
 // });
 
-module.exports = { User, Gallery, Painting };
+module.exports = { User };
