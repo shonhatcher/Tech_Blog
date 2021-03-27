@@ -11,11 +11,11 @@
 
 <body>
   <header>
-    <h1>Welcome to Tech-Book!</h1>
+    <h1>Welcome to Tech-Book</h1>
   </header>
   <nav>
     <a href="/">Home</a>
-    <a href = "/">Dashboard</a>
+     <a href="/Dashboard">Dashboard</a>
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
     {{else}}
@@ -27,7 +27,7 @@
       {{!-- <h2>Enjoy the galleries!</h2> --}}
     </aside>
     <div class="gallery">
-      {{!-- {{{body}}} --}}
+      {{{body}}}
     </div>
   </main>
   {{#if loggedIn}}
